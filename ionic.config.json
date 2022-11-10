@@ -1,0 +1,7 @@
+{
+  "name": "chickenApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
