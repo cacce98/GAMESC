@@ -1,0 +1,18 @@
+<app-header titulo="Contenido"></app-header>
+
+<ion-content>
+    <ion-list style="background-color: rgb(245, 245, 245);">
+        <ion-slide *ngFor="let personaje of personajes">
+            <ion-card class="card-estilo">
+                <img [src]="personaje.imagen" style="height: 20vh; width: 40vh">
+                <div class="card">
+                    <ion-card-header>
+                      <ion-card-title>{{personaje.nombre}}</ion-card-title>
+                      <ion-card-subtitle>Familia: {{personaje.familia}}</ion-card-subtitle>
+                    </ion-card-header>
+                </div>
+              </ion-card>
+        </ion-slide>
+    </ion-list>
+
+</ion-content>
